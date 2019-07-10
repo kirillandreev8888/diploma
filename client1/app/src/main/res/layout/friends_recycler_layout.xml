@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/connectToSigleFriendLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical">
+
+    <TextView
+        android:id="@+id/friend_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="6dp"
+        android:text="ИМЯ ДРУГА"
+        android:textColor="@color/title"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/friend_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ПРАВА ДРУГА"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="17dp"/>
+
+
+
+
+</LinearLayout>

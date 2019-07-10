@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/addFriendEditText"
+        android:layout_width="match_parent"
+        android:hint="Имя друга"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <RadioGroup
+        android:id="@+id/addFriendRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <RadioButton
+
+            android:id="@+id/addFriendPermissionButton1"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Только просмотр" />
+
+        <RadioButton
+            android:id="@+id/addFriendPermissionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Просмотр и добавление"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/addFriendPermissionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Полный доступ"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/addFriendSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="Добавить"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/singleEventLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical">
+
+    <TextView
+        android:id="@+id/event_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название"
+        android:textColor="@color/title"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/author_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Автор"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textAlignment="textEnd"/>
+
+    <TextView
+        android:id="@+id/event_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Какое-нибудь невероятно важное и продуманное описание события"
+        android:textSize="16dp"
+ />
+
+
+
+</LinearLayout>
